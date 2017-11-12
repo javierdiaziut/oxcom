@@ -1,7 +1,6 @@
 package com.app.jd.oxcom.activities;
 
 
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -60,9 +59,8 @@ public class BaseActivity extends AppCompatActivity {
     }
 
 
-
     public void showDialog() {
-        if(progressDialog == null || !progressDialog.isShowing()){
+        if (progressDialog == null || !progressDialog.isShowing()) {
             AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
 
             LayoutInflater inflater = this.getLayoutInflater();
@@ -77,17 +75,18 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public void dismissDialog() {
-        if(progressDialog != null && progressDialog.isShowing()){
+        if (progressDialog != null && progressDialog.isShowing()) {
             try {
                 progressDialog.dismiss();
-            }catch (Exception e){}
+            } catch (Exception e) {
+            }
         }
     }
 
-    public void showDismissDialog(){
-        if(progressDialog == null || !progressDialog.isShowing()){
+    public void showDismissDialog() {
+        if (progressDialog == null || !progressDialog.isShowing()) {
             showDialog();
-        }else{
+        } else {
             dismissDialog();
         }
     }

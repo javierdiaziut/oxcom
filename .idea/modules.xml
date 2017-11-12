@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Oxcom.iml" filepath="$PROJECT_DIR$/Oxcom.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oxcom.iml" filepath="$PROJECT_DIR$/.idea/oxcom.iml" />
     </modules>
   </component>
 </project>

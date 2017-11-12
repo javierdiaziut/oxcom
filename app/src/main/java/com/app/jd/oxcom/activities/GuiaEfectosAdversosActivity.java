@@ -21,9 +21,9 @@ public class GuiaEfectosAdversosActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_guia_efectos_adversos);
         binding.includedAppBarTitle.textViewTitle.setText(getString(R.string.title_guia_efectos_adversos));
-        String[] values = new String[] { "Oncología", "Virología", "Inflamación",
-                "Enfermedades Metabólicas", "Sistema nervioso central" };
-        ListGuiaESAdapter mListGuiaESAdapter = new ListGuiaESAdapter(this, R.layout.item_guia_es,values);
+        String[] values = new String[]{"Oncología", "Virología", "Inflamación",
+                "Enfermedades Metabólicas", "Sistema nervioso central"};
+        ListGuiaESAdapter mListGuiaESAdapter = new ListGuiaESAdapter(this, R.layout.item_guia_es, values);
         binding.listGuiaEfectosAdversos.setAdapter(mListGuiaESAdapter);
 
 
@@ -32,7 +32,6 @@ public class GuiaEfectosAdversosActivity extends BaseActivity {
         binding.tabs.addTab(binding.tabs.newTab().setText("Tab 3"));
         binding.tabs.setTabGravity(TabLayout.GRAVITY_FILL);
     }
-
 
 
 }

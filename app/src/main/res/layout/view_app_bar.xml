@@ -42,7 +42,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginTop="20dp"
                 android:src="@mipmap/ic_roche"
-                android:background="@android:color/transparent"/>
+                android:background="@android:color/transparent" />
 
             <!--<TextView-->
             <!--android:id="@+id/key_amount"-->
@@ -56,6 +56,7 @@
             <!--android:background="@drawable/current_waypoint"-->
             <!--/>-->
         </FrameLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"

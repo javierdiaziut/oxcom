@@ -36,6 +36,7 @@
         <item name="android:paddingEnd">@dimen/geralPadding</item>
         <item name="android:textSize">@dimen/text_size_x3</item>
     </style>
+
     <style name="GralbtnTheme">
         <!--<item name="android:layout_height">@dimen/dimen_height_item_medium</item>-->
         <item name="android:background">@drawable/btn_blue_roundedcorners</item>

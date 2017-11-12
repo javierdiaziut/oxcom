@@ -13,7 +13,6 @@
     <color name="redColorBackground">#d83431</color>
 
 
-
     <color name="colorShadowGralLetter">@color/md_grey_600</color>
     <color name="colorShadowEnergyIndicator">@color/md_grey_900</color>
 
@@ -29,7 +28,6 @@
     <color name="itemEnabled">@color/unicefMainColor</color>
     <color name="itemSelected">#97d700</color>
     <color name="itemDisabled">@color/generalTextColor</color>
-
 
 
     <!-- google's material design colours from

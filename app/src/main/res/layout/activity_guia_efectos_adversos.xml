@@ -3,16 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.teravision.unicef.kidpower.activities.GuiaEfectosAdversosActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
-        <include android:id="@+id/includedAppBarTitle"
+        <include
+            android:id="@+id/includedAppBarTitle"
             layout="@layout/view_app_bar"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <TextView
@@ -24,7 +26,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"
             android:textStyle="bold"
-            android:textSize="16sp"/>
+            android:textSize="16sp" />
 
         <ListView
             android:id="@+id/list_guia_efectos_adversos"
@@ -41,7 +43,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:text="@string/lorem_ipsum"/>
+            android:text="@string/lorem_ipsum" />
 
 
         <android.support.design.widget.TabLayout
@@ -49,7 +51,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/main_btn_color"
-            android:layout_alignParentBottom="true"
-            />
+            android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </layout>
